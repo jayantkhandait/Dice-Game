@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    background-color: black;
+    width: 75%;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.btn{
+    height: 4rem;
+    width: 9rem;
+    border-radius: .6rem;
+    font-size: large;
+    font-weight: 900;
+    background-color: yellow;
+    color: white;
+    margin: 3rem 0;
+}
+
+.btn:active{
+    transform: translateY(0.2rem);
+}
+
+/* .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+.players{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+}
+
+.player{
+    background-color: rgb(190, 188, 163);
+    opacity: 0.4;
+    /* margin: 2rem; */
+    border-radius: 0.3rem;
+    color: black;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15rem;
+    
+}
+
+.active{
+    background-color: aliceblue;
+    opacity: 1;
+}
+h2{
+    /* transform: translateY(-5rem); */
+    font-size: 2.5rem;
+    margin: 0;
+}
+p{
+    color: black;
+    /* transform: translateY(-3rem); */
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.score{
+    height: 7rem;
+    width: 7rem;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    /* transform: translateY(-3rem); */
+}
+
+.curr-score{
+    height: 4rem;
+    width: 7rem;
+    background-color: #ffff66;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    /* transform: translateY(1rem); */
+}
+.p2{
+    margin-left: 1rem;
+}
+
+.dice-png{
+    height: 8rem;
+}
+img{
+    height: 8rem;
+}
+.winner p{
+    color: aliceblue;
+
+}
+.winner-name{
+    font-size: 5rem;
+}
+.hidden{
+    display: none;
+}
